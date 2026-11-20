@@ -4,6 +4,14 @@ const cityInput = document.getElementById("city_input");
 const cityName=document.getElementById("city_name");
 const localtime=document.getElementById("localtime");
 const temperature=document.getElementById("temperature");
+const userLocation=document.getElementById("user_location");
+
+
+button.addEventListener("click", async () => {
+     const result= navigator.geolocation.getCurrentPosition(async ()=>{
+
+     });
+});
 
 async function getData(cityName) {
    
